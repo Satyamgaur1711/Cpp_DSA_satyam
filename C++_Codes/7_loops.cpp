@@ -10,7 +10,7 @@ int main(){
     }
     for (int i = 0; i < 10; i++)
     {
-        cout << "multible of 2 is %d", i*2 << endl;
+        cout << "multible of 2 is" << i*2 << endl;
     }
     
 
