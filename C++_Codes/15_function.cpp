@@ -69,6 +69,4 @@ int main()
 
     int BC = bionomial(10, 6);
     cout << BC << endl;
-
-
 }
