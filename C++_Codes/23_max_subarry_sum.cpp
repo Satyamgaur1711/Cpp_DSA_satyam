@@ -5,8 +5,6 @@ using namespace std;
 int main()
 {
     int max_sum = INT_MIN;
-    int sum = 0;
-
     
     int arr[] = {5, 4, -10, -10, 15, 14};
 
@@ -21,3 +19,4 @@ int main()
 
     cout << max_sum << endl;
 }
+
