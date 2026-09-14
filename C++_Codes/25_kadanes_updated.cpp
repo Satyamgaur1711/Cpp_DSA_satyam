@@ -29,5 +29,13 @@ int main()
     }
     cout << "starting index is " << start_index << endl;
     cout << "ending index is " << end_index << endl;
+
+    cout << "[ ";
+    for (int i = start_index; i < end_index; i++){
+        cout  << arr[i] << " ";
+    }
+    cout << "]";
+
+    cout << endl;
     cout<< max_sum << endl;
 }
