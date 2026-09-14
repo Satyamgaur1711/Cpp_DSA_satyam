@@ -6,15 +6,16 @@ using namespace std;
 
 int main()
 {
-    int arr[] = {-2, 1, -3, 4, -1, 2, 1, -5, 4, -9, 1, 7, -2};
+    int arr[] = {-2, 1, 5, 10, -3, 4, -1, 2, 1, -5, 4, -9, 1, 7, 2, -2};
 
     int current_sum = 0, max_sum = INT_MIN;
     for (int i = 0; i < 13; i++)
     {
         current_sum += arr[i];
         max_sum = max(current_sum, max_sum);
-        if(current_sum < 0);
-        current_sum = 0;
+        if(current_sum < 0){
+            current_sum = 0;
+        }
     }
     cout<< max_sum << endl;
 }
