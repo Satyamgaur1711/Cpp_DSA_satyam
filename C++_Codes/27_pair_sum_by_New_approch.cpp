@@ -8,7 +8,7 @@ int main()
     int target = 10;
     int n = sizeof(arr)/sizeof(arr[0]);
     int i = 0, j = n-1;
-
+    
     while (i<j)
     {
         int sum = arr[i]+arr[j];

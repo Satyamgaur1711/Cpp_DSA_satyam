@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    int arr[] = {9,9,21,9,2,3,4,9,9,9,9,2,2,2,3,3,3,9,9,9,9,9,9,9,9};
+    int arr[] = {9,9,21,100,2,100,4,100,100,100,100,2,2,2,3,3,3,100,100,100,100,100,100,100,100};
     int n = sizeof(arr)/sizeof(arr[0]);
     int frequency = 0;
     for (int i: arr){
